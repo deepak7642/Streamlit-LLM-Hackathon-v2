@@ -7,7 +7,7 @@ with st.sidebar:
     
 st.title("💬 LLM bot")
 st.caption("🚀 A streamlit chatbot powered by LLM using OpenAI")
-st.caption("The purpose of this bot is to assist users by providing answers, generate content, aid in learning, entertain, support education, and advance AI research.")
+st.caption("The purpose of this bot is to assist users by providing answers, generate content, aid in learning, entertain, generate job description, support education, and advance AI research.")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How may I assist you?"}]
 
