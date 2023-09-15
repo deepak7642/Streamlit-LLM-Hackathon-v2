@@ -9,7 +9,7 @@ st.title("💬 LLM bot")
 st.caption("🚀 A streamlit chatbot powered by LLM using OpenAI")
 st.caption("The purpose of this bot is to assist users by providing answers, generate content, aid in learning, entertain, support education, and advance AI research.")
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "How may I assist you?"}]
 
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
